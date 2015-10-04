@@ -2,10 +2,12 @@ __author__ = 'jeanmarie'
 
 from models.people import people
 from models.accounts import accounts
+from models.spaceships import spaceships
 
 DOMAIN = {
     'people': people,
-    'accounts': accounts
+    'accounts': accounts,
+    'spaceships': spaceships
 }
 
 # Enable reads (GET), inserts (POST) and DELETE for resources/collections
